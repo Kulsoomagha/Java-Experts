@@ -42,6 +42,20 @@ public class Day5 extends Person1 {
 //        also objects..
 
 //      INHERITANCE:
+//      it is possible to inherit attributes and methods from one class to another class
+//      1. subclass or child class -> class that inherits from [anotherlass]<- this will be parent class
+
+//      2. super class or parent class ->
+//              using the super keyword we can access the parent methods or attributes
+
+//      to inherit from one class to another class , we will use keyword "extends"
+//      for all the classes in java parent class is the OBJECT CLASS
+
+//      we still remain with 1 pillar:
+
+
+
+
 
     }
 }
