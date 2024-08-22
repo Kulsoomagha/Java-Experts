@@ -43,9 +43,17 @@ public class Day8 {
 //        List          -> ArrayList, LinkedList , Stack
 //        Set           -> Hashset , LinkedHashSet
 //        SortedSet     -> TreeSet
+//---------------------------------------------------------------------------
 //        Queue         -> Queue, PriorityQueue, DoubleEndedQueue
-
 //        Map           -> HashMap, LinkedHashMap, TreeMap
+
+//        List:
+//      -> allows duplicates
+//      -> list follows the insertion order
+
+//        Set:
+//      -> set does not allow duplicates
+//      -> Set does not follow the insertion order
 
 
     }

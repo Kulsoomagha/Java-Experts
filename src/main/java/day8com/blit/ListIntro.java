@@ -2,6 +2,7 @@ package day8com.blit;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class ListIntro {
     public static void main(String[] args) {
@@ -36,8 +37,27 @@ public class ListIntro {
 //        Students.addLast();
 
 //      Stack:
+//      LIFO : Last In First Out
 
+        Stack<String> animals = new Stack<>();
+//      Push: means adding the data in stack
+        animals.push("Lion"); //first
+        animals.push("Dog");
+        animals.push("Horse");
+        animals.push("Cat"); //last
+//      insertion order = how i typed in laptop
+        System.out.println(animals);
 
+//      peek: shows the last in line
+        System.out.println(animals.peek());
+
+//      pop: removes the last one
+//        animals.pop();
+        System.out.println(animals);
+
+//        animals.remove("Lion");
+        System.out.println(animals);
+        System.out.println(animals.search("Dog"));
 
 
     }
